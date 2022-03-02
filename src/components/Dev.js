@@ -1,4 +1,5 @@
 import React from "react";
+import Tarot from "./Tarot.js"
 
 const Dev = () => {
   return (
@@ -15,7 +16,9 @@ const Dev = () => {
         <div className="column is-half">My Strengths</div>
         <div className="column is-half">Projects/Resources</div>
       </div>
-      <div>Feature Examples</div>
+      <div>Feature Examples
+          <Tarot />
+      </div>
     </div>
   );
 };

@@ -33,8 +33,8 @@ const Nav = () => {
           className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
           <div className="navbar-start">
-            <a className="navbar-item">Home</a>
-            <a className="navbar-item">Documentation</a>
+            <a className="navbar-item">RESUME</a>
+            <a className="navbar-item">DEVELOPMENT</a>
           </div>
         </div>
       </nav>
